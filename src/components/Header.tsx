@@ -28,6 +28,7 @@ function Header() {
 
         <span>
             <button className="text-3xl md:hidden mr-4 p-1 shadow-xl rounded-xl" onClick={toggleSearch} onFocus={() => setIsDropdownVisible(false)}><IoSearchSharp /></button>
+            
             {
                 isSearchVisible && (
                     <div className="absolute right-12 h-1/6 mt-8 w-3/4 bg-white rounded-md shadow-lg py-4 px-2 text-center font-bold text-xl">
@@ -41,11 +42,13 @@ function Header() {
             <button className="text-3xl md:hidden p-1 shadow-xl rounded-xl" onClick={toggleDropdown} onFocus={() => setIsSearchVisible(false)}><TiThMenu /></button>
             {isDropdownVisible && (
                 <div className="absolute right-2 mt-8 w-40 m bg-white rounded-md shadow-lg py-1 text-center font-bold text-xl">
+                    <Link to="/login" className="block px-4 py-2">Connexion</Link>
+                    <hr className="w-2/3 mx-auto"/>
                     <Link to="/profile" className="block px-4 py-2">Mon compte</Link>
                     <hr className="w-2/3 mx-auto"/>
                     <Link to="/about" className="block px-4 py-2">À propos</Link>
-                    <hr className="w-2/3 mx-auto"/>
-                    <Link to="/login" className="block px-4 py-2">Connexion</Link>
+                    
+                    
                 </div>
                 )}
             
@@ -57,9 +60,10 @@ function Header() {
         
         <span className="hidden md:block ">
             <ul className="flex space-x-4 text-lg ">
-                <li className="hover:font-bold hover:text-blue-500"><Link to="/profile">Mon compte</Link> </li>
-                <li className="hover:font-bold hover:text-blue-500"><Link to="/about">À propos</Link></li>
                 <li className="hover:font-bold hover:text-blue-500"><Link to="/login">Connexion</Link></li>
+                <li className="hover:font-bold hover:text-blue-500"><Link to="/profile">Mon compte</Link></li>
+                <li className="hover:font-bold hover:text-blue-500"><Link to="/about">À propos</Link></li>
+                
             </ul>
         </span>
         

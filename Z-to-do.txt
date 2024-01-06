@@ -4,8 +4,11 @@
 #                                                                                   #                                                                                 #
 #####################################################################################
 
-05 - 01 - 2024 | Réalisation de la page Home, des composants header et articleCard 
+05 - 01 - 2024 | Réalisation de la page Home, des composants header et articleCard
+06 - 01 - 2024 | Réalisation de la page About, modification du header et création du Footer
 
 ----------------------------------------------------------------
 
-Session suivante: Footer et about
+Session suivante: Login page et dashboard
+
+Problème: Les boutons du menu et recherche du composant header ne fonctionnent pas correctement.
