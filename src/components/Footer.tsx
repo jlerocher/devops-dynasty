@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
-import { FaFacebook, FaTwitter } from "react-icons/fa6";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebook, FaXTwitter,  } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="bg-white shadow-2xl mt-5">
+    <footer className="bg-white shadow-2xl mt-5 bottom-0 md:bottom-0 md:relative w-screen">
       <div className="flex justify-between p-4">
         <h2 className="text-4xl font-bold font-serif">
             <Link to="/">

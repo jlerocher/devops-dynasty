@@ -6,6 +6,7 @@
 
 05 - 01 - 2024 | Réalisation de la page Home, des composants header et articleCard
 06 - 01 - 2024 | Réalisation de la page About, modification du header et création du Footer
+07 - 01 - 2024 | Ajout de la page Login, modifdification du footer, des pages about et notfound
 
 ----------------------------------------------------------------
 

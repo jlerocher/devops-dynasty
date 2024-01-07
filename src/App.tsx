@@ -2,7 +2,7 @@ import { About } from './About'
 import Home from './Home'
 import './App.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import { SignIn } from './SignIn'
+import { SignIn } from './login'
 import { NotFound } from './NotFound'
 
 function App() {
