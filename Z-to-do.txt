@@ -10,6 +10,6 @@
 
 ----------------------------------------------------------------
 
-Session suivante: Login page et dashboard
+Session suivante: register page et système d'authentification
 
 Problème: Les boutons du menu et recherche du composant header ne fonctionnent pas correctement.

@@ -70,11 +70,11 @@ export const SignIn = () => {
           </div>
 
           <span className="w-3/4 mx-auto mb-2">
-            <Link to="signup" className="text-blue-500 font-bold">Pas encore de compte ?</Link>
+            <Link to="/register" className="text-blue-500 font-bold">Pas encore de compte ?</Link>
           </span>
           
           <span className="w-3/4 mx-auto mb-2">
-            <Link to="reset-password" className="text-blue-500 font-bold">Mot de passe oublié ?</Link>
+            <Link to="/reset-password" className="text-blue-500 font-bold">Mot de passe oublié ?</Link>
           </span>
 
           <hr className="w-3/4 mx-auto py-1"/>
